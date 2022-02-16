@@ -1,0 +1,15 @@
+{
+  "name": "piral-instance",
+  "version": "0.0.1",
+  "app": "./src/index.html",
+  "pilets": {
+    "scripts": {},
+    "externals": [],
+    "devDependencies": {},
+    "validators": {},
+    "preScaffold": "",
+    "postScaffold": "",
+    "preUpgrade": "",
+    "postUpgrade": ""
+  }
+}

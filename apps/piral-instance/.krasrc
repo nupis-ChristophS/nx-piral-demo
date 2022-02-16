@@ -1,0 +1,23 @@
+{
+  "injectors": {
+    "script": {
+      "active": true,
+      "directory": "./src/mocks"
+    },
+    "har": {
+      "active": false,
+      "directory": "./src/mocks"
+    },
+    "json": {
+      "active": false,
+      "directory": "./src/mocks"
+    },
+    "proxy": {
+      "active": false
+    },
+    "store": {
+      "active": false,
+      "directory": "./src/mocks"
+    }
+  }
+}

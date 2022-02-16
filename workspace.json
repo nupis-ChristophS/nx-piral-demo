@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "projects": {
+    "piral-instance": "apps/piral-instance"
+  }
+}

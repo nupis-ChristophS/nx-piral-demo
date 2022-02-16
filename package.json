@@ -1,0 +1,52 @@
+{
+  "name": "nx-piral-demo",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nx serve",
+    "lint": "nx lint",
+    "test": "nx test",
+    "build": "nx build"
+  },
+  "dependencies": {
+    "piral": "0.14.10",
+    "regenerator-runtime": "0.13.9",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@nrwl/cli": "13.8.1",
+    "@nrwl/eslint-plugin-nx": "13.8.1",
+    "@nrwl/jest": "13.8.1",
+    "@nrwl/linter": "13.8.1",
+    "@nrwl/node": "13.8.1",
+    "@nrwl/react": "13.8.1",
+    "@nrwl/tao": "13.8.1",
+    "@nrwl/web": "13.8.1",
+    "@nrwl/workspace": "13.8.1",
+    "@testing-library/jest-dom": "^5.16.1",
+    "@testing-library/react": "12.1.2",
+    "@testing-library/react-hooks": "7.0.2",
+    "@types/jest": "27.0.2",
+    "@types/node": "14.14.33",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "@types/react-router": "latest",
+    "@types/react-router-dom": "latest",
+    "@typescript-eslint/eslint-plugin": "5.10.2",
+    "@typescript-eslint/parser": "5.10.2",
+    "eslint": "8.7.0",
+    "eslint-config-prettier": "8.3.0",
+    "eslint-plugin-import": "2.25.4",
+    "eslint-plugin-jsx-a11y": "6.5.1",
+    "eslint-plugin-react": "7.28.0",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "jest": "27.2.3",
+    "piral-cli": "0.14.10",
+    "piral-cli-webpack": "0.14.10",
+    "prettier": "2.5.1",
+    "ts-jest": "27.0.5",
+    "ts-node": "9.1.1",
+    "tsconfig-paths-webpack-plugin": "^3.5.1",
+    "typescript": "4.3.5"
+  }
+}

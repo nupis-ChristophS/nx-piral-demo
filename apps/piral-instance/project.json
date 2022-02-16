@@ -1,0 +1,47 @@
+{
+  "root": "apps/piral-instance",
+  "sourceRoot": "apps/piral-instance/src",
+  "projectType": "application",
+  "targets": {
+    "serve": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          "piral debug"
+        ],
+        "cwd": "apps/piral-instance"
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": [
+        "{options.outputFile}"
+      ],
+      "options": {
+        "lintFilePatterns": [
+          "apps/piral-instance/**/*.{ts,tsx,js,jsx}"
+        ]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": [
+        "coverage/apps/piral-instance"
+      ],
+      "options": {
+        "jestConfig": "apps/piral-instance/jest.config.js",
+        "passWithNoTests": true
+      }
+    },
+    "build": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "commands": [
+          "piral build --target ../../dist/apps/piral-instance"
+        ],
+        "cwd": "apps/piral-instance"
+      }
+    }
+  },
+  "tags": []
+}
